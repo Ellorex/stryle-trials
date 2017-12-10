@@ -1,0 +1,27 @@
+.container {
+  width: 70%;
+  min-width: 400px;
+  margin: auto;
+}
+
+#navbar {
+  display: flex;
+  background-color: #4b4747;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#navbar .navElement {
+  list-style-type: none;
+  padding-left: 1%;
+}
+#navbar .navElement a {
+    text-decoration: none;
+    color: white;
+}
+p {
+  text-align: justify;
+}
+.midSection {
+  background-color: #4b4747;
+  color: white;
+}

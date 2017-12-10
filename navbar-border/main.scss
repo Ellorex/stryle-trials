@@ -1,0 +1,42 @@
+html {
+    background-image: url('chalkboard.jpg');
+    background-repeat: repeat;
+    body {
+        width: 100%;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        .container {
+            .menu {
+                position: relative;
+                top: 1em;
+                left: 1em;
+                width: 570px;
+                height: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                border: 1px solid white;
+                ul {
+                    display: flex;
+                    padding-left: 0;
+                    text-transform: uppercase;
+                    font-size: 12.5px;
+                    li {
+                        list-style-type: none;
+                        padding: 7px;
+                        &:hover {
+                            border-bottom: 1px solid;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+            p {
+                text-align: justify;
+            }
+        }
+    }
+}
