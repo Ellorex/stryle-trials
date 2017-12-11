@@ -1,0 +1,41 @@
+body {
+  background-image: url("img/kiwis.png");
+  background-repeat: repeat; }
+  body .wholecontainer {
+    width: 80%;
+    min-height: 1100px;
+    margin: auto;
+    padding: 15px;
+    background-color: #EEEFE4;
+    color: #1b1616; }
+    body .wholecontainer .header .bloctitle {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      border: 1px solid #1b1616; }
+      body .wholecontainer .header .bloctitle h1 {
+        padding: 30px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive; }
+    body .wholecontainer .navbar {
+      display: flex;
+      justify-content: center; }
+      body .wholecontainer .navbar ul {
+        min-width: 650px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly; }
+        body .wholecontainer .navbar ul li {
+          padding: 5px;
+          list-style-type: none;
+          font-weight: 600; }
+          body .wholecontainer .navbar ul li a {
+            text-decoration: none;
+            color: inherit; }
+            body .wholecontainer .navbar ul li a:hover {
+              border-bottom: 1px solid; }
+    body .wholecontainer .bodycontainer p {
+      text-align: justify; }
+
+/*# sourceMappingURL=styles.css.map */
