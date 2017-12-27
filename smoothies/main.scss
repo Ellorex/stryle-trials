@@ -4,53 +4,72 @@ $dark-grey: #1b1616;
 body {
     background-image: url('img/kiwis.png');
     background-repeat: repeat;
-    .wholecontainer {
-        width: 80%;
-        min-height: 1100px;
+}
+
+.wholecontainer {
+    width: 80%;
+    min-height: 1100px;
+    margin: auto;
+    padding: 15px;
+    background-color: $light-green;
+    color: $dark-grey; 
+}
+.header {
+    .bloctitle {
+        max-width: 900px;
         margin: auto;
-        padding: 15px;
-        background-color: $light-green;
-        color: $dark-grey;
-        .header {
-            .bloctitle {
-                max-width: 900px;
-                margin: auto;
-                display: flex;
-                justify-content: center;
-                border: 1px solid $dark-grey;
-                h1 {
-                    padding: 30px;
-                    text-align: center;
-                    font-family: 'Dancing Script', cursive;
-                }
-            }
-        }
-        .navbar {
-            display: flex;
-            justify-content: center;
-            ul {
-                min-width: 650px;
-                padding: 10px;
-                display: flex;
-                justify-content: space-evenly;
-                li {
-                    padding: 5px;
-                    list-style-type: none;
-                    font-weight: 600;
-                    a {
-                        text-decoration: none;
-                        color: inherit;
-                        &:hover {
-                            border-bottom: 1px solid;
-                        }
-                    }
-                }
-            }
-        }
-        .bodycontainer {
-           p {
-                text-align: justify;
-           }
+        display: flex;
+        justify-content: center;
+        border: 1px solid $dark-grey;
+        h1 {
+            padding: 30px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
         }
     }
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    ul {
+        min-width: 650px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        li {
+            padding: 5px;
+            list-style-type: none;
+            font-weight: 600;
+            a {
+                text-decoration: none;
+                color: inherit;
+                &:hover {
+                    border-bottom: 1px solid;
+                }
+            }
+        }
+    }
+}
+.presentation {
+    p {
+        text-align: justify;
+    }
+}
+.picmenu--block {
+    width: 100%;
+    display: flex;
+    .picmenu--item {
+        width: 33%;
+        margin: auto;
+        .picmenu--img {
+            text-align: center;
+            img {
+                max-width: 300px;
+            }
+        }
+        .picmenu--text {
+            text-align: center;
+        }
+    }
+
 }
